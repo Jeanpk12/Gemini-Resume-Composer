@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #000;
+  }
+  
+  .chat-container {
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .chat-messages {
+    margin-top: 50px;
+  }
+  
+  .user-input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #125ab3;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 8px;
+    background-color: #333333; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  button:hover{
+    background-color: #1a1a1a;
+  }
+  
+  .message {
+    margin-top: 30px; 
+  }
+  
+  .user-message {
+    margin-top: 30px; 
+    background-color: #b3d5ff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .response-message {
+    background-color: #1a1a1a; 
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  p{
+    padding: 0 24px;
+  }
+
+  h3{
+    font-size: 38px;
+    margin-bottom: 8px;
+    padding: 0 24px;
+    text-align: left;
+  }
+
+  h4{
+    margin-top: 12px;
+  }
+
+  ul{
+    margin-left: 50px;
+  }
+
+  .loading-message{
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .delete{
+    color: #ffffff;
+    background-color: #cf1d1d;
+    margin: 30px;
+    margin-left: 24px;
+  }
+
+  .delete:hover{
+    background-color: #9b1515;
+  }

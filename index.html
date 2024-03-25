@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini resume Composer</title>
+  <link rel="stylesheet" href="src/style/styles.css">
+  <!-- RemixIcon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <!-- RemixIcon -->
+</head>
+<body>
+  <div class="chat-container">
+    <h1>Gemini resume Composer</h1>
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="user-input">
+      <input type="text" id="user-input" placeholder="Digite ou cole um tópico que deve fazer parte do texto">
+      <button id="send-btn">Compor o Tópico</button>
+      <button id="print-pdf-btn"><i class="ri-printer-line"></i></button>
+    </div>
+  </div>
+  <!-- Marked -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Marked -->
+  <!-- Google AI Generative -->
+  <script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+  </script>
+  <!-- Google AI Generative -->
+  <script type="module" src="src/javascript/chat.js"></script>
+</body>
+</html>
