@@ -41,7 +41,7 @@ async function initializeChat() {
                 chat = await initializeGenerativeAI();
             }
 
-            const formattedTopic = `Escreva um resumo sobre: ${topic}. Leve em consideração a nossa última interação e evite ser repetitivo sobre temas já abordados. Seja criativo e escreva textos longos e didáticos. O título deve vir em h3`;
+            const formattedTopic = `Por favor, escreva um artigo sobre o tópico: ${topic}. Considere nossa última interação e evite repetir temas já abordados. Seja criativo e produza um texto longo e didático, seguindo as normas da ABNT. Lembre-se de incluir um título com a formatação h3. Lembre-se também que, como será adicionado novos parágrafos, não deve haver um tópico de introdução nem de conclusão.`;
 
             const response = await chat.sendMessage(formattedTopic);
             const textResponse = await response.response.text();
