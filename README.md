@@ -13,6 +13,8 @@ Esta é uma ferramenta desenvolvida para auxiliar professores e alunos na criaç
 - **Interatividade**: Os usuários têm a opção de reordenar a posição dos tópicos conforme desejado e remover tópicos que não atendam às suas expectativas.
   
 - **Facilidade na revisão**: Os usuários podem imprimir ou baixar o resumo no formato de pdf para que possam consultar posteriormente.
+  
+![screen-capture-_14_](https://github.com/Jeanpk12/Gemini-Resume-Composer/assets/122842874/756c6168-9bfc-40b9-b0e4-d5e1192f28e3)
 
 ## Utilização
 
