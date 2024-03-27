@@ -54,12 +54,20 @@ function moveMessage(index, direction) {
     localStorage.setItem('chatMessages', JSON.stringify(savedMessages));
 
     const chatMessages = document.getElementById('chat-messages');
-    while (chatMessages.firstChild) {
-        chatMessages.removeChild(chatMessages.firstChild);
+    const messageContainers = chatMessages.querySelectorAll('.response-message');
+
+    if (messageContainers[index]) {
+        messageContainers[index].classList.add('fade-out');
+
+        setTimeout(() => {
+            while (chatMessages.firstChild) {
+                chatMessages.removeChild(chatMessages.firstChild);
+            }
+            savedMessages.forEach((message, idx) => {
+                appendMessage(message.role, message.content, idx);
+            });
+        }, 300);
     }
-    savedMessages.forEach((message, idx) => {
-        appendMessage(message.role, message.content, idx);
-    });
 }
 
 export function scrollToBottom() {

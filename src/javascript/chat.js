@@ -33,6 +33,8 @@ async function initializeChat() {
         if (!topic) return;
 
         userInput.value = '';
+        sendBtn.innerHTML = '<i class="ri-loader-fill rotate"></i>';
+
 
         showLoadingMessage();
 
@@ -54,6 +56,8 @@ async function initializeChat() {
             const newMessage = { role: 'model', content: htmlResponse };
             savedMessages.push(newMessage);
             localStorage.setItem('chatMessages', JSON.stringify(savedMessages));
+            sendBtn.innerHTML = '<i class="ri-add-line"></i>';
+            sendBtn.querySelector('i').classList.remove('rotate');
 
             hideLoadingMessage();
         } catch (error) {

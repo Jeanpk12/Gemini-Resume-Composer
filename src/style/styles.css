@@ -140,4 +140,20 @@ body {
     font-size: 20px;
   }
   
-  
+  .response-message {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.rotate {
+  display: inline-block;
+  animation: rotate 10s linear infinite;
+}
