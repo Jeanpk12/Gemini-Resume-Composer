@@ -14,8 +14,6 @@ Esta é uma ferramenta desenvolvida para auxiliar professores e alunos na criaç
   
 - **Facilidade na revisão**: Os usuários podem imprimir ou baixar o resumo no formato de pdf para que possam consultar posteriormente.
   
-![screen-capture-_14_](https://github.com/Jeanpk12/Gemini-Resume-Composer/assets/122842874/756c6168-9bfc-40b9-b0e4-d5e1192f28e3)
-
 ## Utilização
 
 1. Abra o arquivo `index.html` em um navegador web.
