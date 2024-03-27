@@ -98,7 +98,7 @@ export function createMessageElement(text, className) {
 export function createDeleteButton(index) {
     const deleteButton = document.createElement('button');
     deleteButton.innerHTML = '<i class="ri-delete-bin-7-line"></i>';
-    deleteButton.classList.add('delete');
+    deleteButton.classList.add('delete', 'hideToPrint');
     deleteButton.addEventListener('click', function() {
         const messageContainer = deleteButton.parentElement;
         messageContainer.remove();
@@ -115,3 +115,14 @@ function removeMessageFromLocalStorage(index) {
     
     localStorage.setItem('chatMessages', JSON.stringify(savedMessages));
 }
+
+export function createEditButton(index) {
+    const editButton = document.createElement('button');
+    editButton.innerHTML = '<i class="ri-edit-line"></i>';
+    editButton.classList.add('edit', 'hideToPrint');
+    editButton.addEventListener('click', function() {
+        editMessage(index);
+    });
+    return editButton;
+}
+
