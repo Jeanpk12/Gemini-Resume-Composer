@@ -11,6 +11,8 @@ Esta é uma ferramenta desenvolvida para auxiliar professores e alunos na criaç
 - **IA Generativa**: A inteligência artificial gera um texto sintético e didático a partir dos tópicos fornecidos, seguindo as normas da ABNT e utilizando linguagem acessível.
 
 - **Interatividade**: Os usuários têm a opção de reordenar a posição dos tópicos conforme desejado e remover tópicos que não atendam às suas expectativas.
+  
+- **Facilidade na revisão**: Os usuários podem imprimir ou baixar o resumo no formato de pdf para que possam consultar posteriormente.
 
 ## Utilização
 
