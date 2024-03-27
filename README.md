@@ -32,7 +32,3 @@ Esta é uma ferramenta desenvolvida para auxiliar professores e alunos na criaç
 ## Contribuição
 
 Contribuições são bem-vindas! Para sugestões, problemas ou solicitações de funcionalidades, por favor, abra uma issue neste repositório.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
